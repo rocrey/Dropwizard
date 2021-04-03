@@ -1,0 +1,15 @@
+789 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+824 [main] [ERROR] org.apache.maven.DefaultMaven - [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Malformed POM C:\Users\DAVIDREY\IdeaProjects\Dropwizard\pom.xml: Unrecognised tag: 'plugin' (position: START_TAG seen ...</dependencies>\n    <plugin>... @24:13)  @ C:\Users\DAVIDREY\IdeaProjects\Dropwizard\pom.xml, line 24, column 13
+ @ 
+824 [main] [ERROR] org.apache.maven.cli.MavenCli - The build could not read 1 project -> [Help 1]
+824 [main] [ERROR] org.apache.maven.cli.MavenCli -   
+824 [main] [ERROR] org.apache.maven.cli.MavenCli -   The project org.example:Dropwizard:1.0-SNAPSHOT (C:\Users\DAVIDREY\IdeaProjects\Dropwizard\pom.xml) has 1 error
+824 [main] [ERROR] org.apache.maven.cli.MavenCli -     Malformed POM C:\Users\DAVIDREY\IdeaProjects\Dropwizard\pom.xml: Unrecognised tag: 'plugin' (position: START_TAG seen ...</dependencies>\n    <plugin>... @24:13)  @ C:\Users\DAVIDREY\IdeaProjects\Dropwizard\pom.xml, line 24, column 13 -> [Help 2]
+824 [main] [ERROR] org.apache.maven.cli.MavenCli - 
+824 [main] [ERROR] org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
+824 [main] [ERROR] org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
+824 [main] [ERROR] org.apache.maven.cli.MavenCli - 
+824 [main] [ERROR] org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+824 [main] [ERROR] org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+824 [main] [ERROR] org.apache.maven.cli.MavenCli - [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/ModelParseException
